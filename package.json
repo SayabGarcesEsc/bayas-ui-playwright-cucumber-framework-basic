@@ -1,0 +1,30 @@
+{
+  "name": "bayas-ui-playwright-cucumber-framework-basic",
+  "version": "1.0.0",
+  "description": "Basic BDD automation framework for UI testing built with Playwright, Cucumber, and TypeScript.",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx playwright test",
+    "test:bdd": "npx bddgen && npx playwright test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SayabGarcesEsc/bayas-ui-playwright-cucumber-framework-basic.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/SayabGarcesEsc/bayas-ui-playwright-cucumber-framework-basic/issues"
+  },
+  "homepage": "https://github.com/SayabGarcesEsc/bayas-ui-playwright-cucumber-framework-basic#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.62.1",
+    "@types/node": "^26.4.1"
+  },
+  "dependencies": {
+    "@cucumber/cucumber": "^13.2.1",
+    "playwright-bdd": "^9.2.0"
+  }
+}
